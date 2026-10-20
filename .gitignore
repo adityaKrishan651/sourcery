@@ -1,1 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
 .venv/
+
+# Data & artifacts
+data/
+feedback.db
+*.sqlite3
+
+# Env & editors
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
+.idea/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.pytest_cache/
